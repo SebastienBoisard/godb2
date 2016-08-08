@@ -1,5 +1,16 @@
-Package db2cli
+Package GoDB2
 ==============
+
+
+This package is a fork of the [work of Patrick Higgins](https://bitbucket.org/phiggins/db2cli) which had created a DB2 driver for the Go language.
+
+When I tested this package, I found a runtime error "cgo argument has Go pointer to Go pointer" (Cf. [issue #65 in github.com/alexbrainman/odbc](https://github.com/alexbrainman/odbc/issues/65)) that needed to be fix as fast as possible.
+
+Patrick Higgins had not updated this package since 2015, so I preferred to correct this problem myself (thanks to Mark Francis [report](https://bitbucket.org/phiggins/db2cli/issues/5/sqlbindcol-panic-runtime-error-cgo)). That's the story of this fork.
+
+
+*Original README:*
+
 
 The C API for DB2 is called CLI and is basically the same interface as
 ODBC. However, it can be used without configuring ODBC which
