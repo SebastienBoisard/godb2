@@ -1,4 +1,4 @@
-Package GoDB2
+Package godb2
 ==============
 
 

@@ -4,10 +4,10 @@
 
 // Package odbc implements database/sql driver to access data via odbc interface.
 //
-package db2cli
+package godb2
 
 import (
-	"bitbucket.org/phiggins/db2cli/api"
+	"github.com/sebastienboisard/godb2/api"
 	"database/sql"
 )
 
